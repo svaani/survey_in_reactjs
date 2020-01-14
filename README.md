@@ -9,55 +9,47 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Deployed Link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Hosted on firebase, please follow the link
+https://unmatched-survey.firebaseapp.com/
 
-### `npm run eject`
+### Credentials 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+End User Login : nandan@survey.com
+Password : 6644
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Admin Login : steven@survey.com
+Password :6644
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Open Issues And Yet to Implement
+1. Invite by email feature
+2. Assign role
+3. 404 error page on wrong url
+4. Role check on direct URL visit
+5. Extract styles as classes
+6. Models could have had more comments on the purpose
+7. Answer reports is displayed but showing wrong data sometimes
+8. On creation of survey, the redirection is not happening
+9. Test cases are in todo state
+10. File sizes have gone large, could have refactored further more
+11. A few lint errors are to be fixed
+12. In a few places, naming convention has got some confusions. Underscore & hyphens are randomly used
+13. Redux is not used since firebase gives a pretty good state management queries
+14. localstorage could have been avoided
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Details/Bonus
 
-## Learn More
+The app updates the data in firebase. Please tell me your email id to get view permissions.
+The DB is created using normal forms.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app is deployed over firebase hosting server after minifying the files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Overall time taken is almost 30+ hours due to DB structuring, firebase integration and API details.
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

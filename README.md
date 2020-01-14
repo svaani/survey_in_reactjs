@@ -42,6 +42,7 @@ Password :6644
 12. In a few places, naming convention has got some confusions. Underscore & hyphens are randomly used
 13. Redux is not used since firebase gives a pretty good state management queries
 14. localstorage could have been avoided
+15. React features could have been used even better.
 
 ### Details/Bonus
 
@@ -49,6 +50,8 @@ The app updates the data in firebase. Please tell me your email id to get view p
 The DB is created using normal forms.
 
 The app is deployed over firebase hosting server after minifying the files.
+
+It's done in react hooks and used material-ui of react to apply responsiveness.
 
 Overall time taken is almost 30+ hours due to DB structuring, firebase integration and API details.
 

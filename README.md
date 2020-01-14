@@ -52,4 +52,5 @@ The app is deployed over firebase hosting server after minifying the files.
 
 Overall time taken is almost 30+ hours due to DB structuring, firebase integration and API details.
 
+Thanks!
 
